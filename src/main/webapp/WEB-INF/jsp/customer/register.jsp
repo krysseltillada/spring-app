@@ -48,7 +48,7 @@
 						<div class="bo4 of-hidden size15 m-b-20">
 							<input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="email" placeholder="Email Address">
 						</div>
-						
+
 						<div class="w-size25">
 							<button type="submit" class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4">
 								Register

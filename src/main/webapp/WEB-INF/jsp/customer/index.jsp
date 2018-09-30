@@ -329,6 +329,10 @@
 				</div>
 
 				<div class="row">
+					<c:forEach var = "i" begin = "1" end = "5">
+				        Item <c:out value = "${i}"/><p>
+				    </c:forEach>
+
 					<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
 						<!-- Block3 -->
 						<div class="block3">

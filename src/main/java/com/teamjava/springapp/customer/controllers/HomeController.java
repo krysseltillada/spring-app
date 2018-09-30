@@ -10,6 +10,7 @@ public class HomeController {
         return "/customer/index";
     }
 	
+	
 	@GetMapping("/customer/about")
 	public String about() {
 		return "/customer/about";
