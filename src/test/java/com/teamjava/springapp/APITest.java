@@ -42,5 +42,4 @@ public class APITest
         System.out.println(mPaymentGatewayService.createTransaction(new BigDecimal("100.00"), "123456", "http://172.22.103.136:8080/receiveKioskTransaction", "kryssel"));
     }
 
-
 }
