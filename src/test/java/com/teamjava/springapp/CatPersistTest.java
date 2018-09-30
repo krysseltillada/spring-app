@@ -1,7 +1,7 @@
 package com.teamjava.springapp;
 
 import com.teamjava.springapp.domain.Cat;
-import com.teamjava.springapp.repository.CatRepository;
+import com.teamjava.springapp.admin.repository.CatRepository;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

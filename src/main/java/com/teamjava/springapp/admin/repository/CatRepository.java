@@ -1,4 +1,4 @@
-package com.teamjava.springapp.repository;
+package com.teamjava.springapp.admin.repository;
 
 import com.teamjava.springapp.domain.Cat;
 import org.springframework.data.repository.CrudRepository;

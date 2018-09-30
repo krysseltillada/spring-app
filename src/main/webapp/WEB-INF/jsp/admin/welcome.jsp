@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file = "../jsp/common/taglib.jsp" %>
+<%@ include file = "../../jsp/admin/common/taglib.jsp" %>
 
 
 <html>
     <head>
         <title>welcome</title>
 
-        <c:import url="../jsp/common/css.jsp" />
+        <c:import url="../../jsp/admin/common/css.jsp" />
 
         <style>
             .error {
@@ -36,7 +36,7 @@
             </table>
         </form:form>
 
-        <c:import url="../jsp/common/js.jsp" />
+        <c:import url="../../jsp/admin/common/js.jsp" />
 
 
     </body>

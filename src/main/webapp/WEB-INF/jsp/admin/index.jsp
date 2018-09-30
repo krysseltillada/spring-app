@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file = "../jsp/common/taglib.jsp" %>
+<%@ include file = "../../jsp/admin/common/taglib.jsp" %>
 
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -16,7 +16,7 @@
         <link rel="apple-touch-icon" href="<c:url value="${template}/apple-icon.png"/>">
         <link rel="shortcut icon" href="<c:url value="${template}/favicon.ico"/>">
 
-        <c:import url="../jsp/common/css.jsp" />
+        <c:import url="../../jsp/admin/common/css.jsp" />
 
         <title>Sufee Admin - HTML5 Admin Template</title>
 
@@ -653,7 +653,7 @@
 
         <!-- Right Panel -->
 
-        <c:import url="../jsp/common/js.jsp" />
+        <c:import url="../../jsp/admin/common/js.jsp" />
 
         <script>
             ( function ( $ ) {

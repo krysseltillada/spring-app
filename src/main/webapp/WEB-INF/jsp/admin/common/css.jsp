@@ -2,7 +2,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <c:set var="template" value="/resources/vendor/template" />
-
 <link rel="stylesheet" href="<c:url value="${template}/assets/css/normalize.css"/>">
 <link rel="stylesheet" href="<c:url value="${template}/assets/css/bootstrap.min.css"/>">
 <link rel="stylesheet" href="<c:url value="${template}/assets/css/font-awesome.min.css"/>">

@@ -1,4 +1,4 @@
-package com.teamjava.springapp.controllers;
+package com.teamjava.springapp.admin.controllers;
 
 import com.teamjava.springapp.domain.Cat;
 import org.springframework.stereotype.Controller;
@@ -19,7 +19,7 @@ public class TestController
 
         model.addAttribute("cat", new Cat());
 
-        return "welcome";
+        return "/admin/welcome";
     }
 
     @PostMapping("/login")
@@ -28,7 +28,7 @@ public class TestController
                         BindingResult pBindingResult,
                         Model model) {
         if (pBindingResult.hasErrors()) {
-            return "welcome";
+            return "/admin/welcome";
         }
 
         model.addAttribute("success", "tng ina");
@@ -38,6 +38,6 @@ public class TestController
 
     @GetMapping("/index")
     public String index() {
-        return "index";
+        return "/admin/index";
     }
 }
