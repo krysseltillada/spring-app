@@ -42,5 +42,11 @@ public class APITest
         System.out.println(mPaymentGatewayService.createTransaction(new BigDecimal("100.00"), "123456", "http://172.22.103.136:8080/receiveKioskTransaction", "kryssel"));
     }
 
+    @Test
+    public void testPGIupdateTransaction() {
+        System.out.println(mPaymentGatewayService.updateRealTimePaymentNotification("http://172.22.103.136:8080/receiveKioskTransaction", "123456", "1234", "PENDING", "222"));
+        System.out.println(mPaymentGatewayService.updateRealTimePaymentNotification("http://172.22.103.136:8080/receiveKioskTransaction", "123456", "1234", "PAID", "222"));
+    }
+
 
 }
