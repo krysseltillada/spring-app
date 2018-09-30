@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.teamjava.springapp.admin.service.ProductService;
-import com.teamjava.springapp.domain.Cat;
 import com.teamjava.springapp.domain.Product;
 
 @Controller

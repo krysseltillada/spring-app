@@ -329,99 +329,34 @@
 				</div>
 
 				<div class="row">
-					<c:forEach var = "i" begin = "1" end = "5">
-				        Item <c:out value = "${i}"/><p>
+					<c:forEach var="p" items="${products}">
+						<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
+							<!-- Block3 -->
+							<div class="block3">
+								<a href="" class="block3-img dis-block hov-img-zoom">
+									<img src="/resources/vendor/template-customer/images/blog-01.jpg" alt="IMG-BLOG">
+								</a>
+
+								<div class="block3-txt p-t-14">
+									<h4 class="p-b-7">
+										<a class="m-text11">
+											<c:out value = "${p.productName}"/>
+										</a>
+									</h4>
+
+									<p class="s-text8 p-t-16">
+										<c:out value = "${p.productDescription}"/>
+									</p>
+
+									<hr width="100%">
+
+									<span class="block3-price m-text6 p-r-5">
+										PHP <c:out value = "${p.price}"/>
+									</span>
+								</div>
+							</div>
+						</div>
 				    </c:forEach>
-
-					<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
-						<!-- Block3 -->
-						<div class="block3">
-							<a class="block3-img dis-block hov-img-zoom">
-								<img src="/resources/vendor/template-customer/images/blog-01.jpg" alt="IMG-BLOG">
-							</a>
-
-							<div class="block3-txt p-t-14">
-								<h4 class="p-b-7">
-									<a class="m-text11">
-										Black Friday Guide: Best Sales & Discount Codes
-									</a>
-								</h4>
-
-								<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-								<span class="s-text6">on</span> <span class="s-text7">July 22, 2017</span>
-
-								<p class="s-text8 p-t-16">
-									Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-								</p>
-
-								<hr width="100%">
-
-								<span class="block3-price m-text6 p-r-5">
-									$75.00
-								</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
-						<!-- Block3 -->
-						<div class="block3">
-							<a class="block3-img dis-block hov-img-zoom">
-								<img src="/resources/vendor/template-customer/images/blog-01.jpg" alt="IMG-BLOG">
-							</a>
-
-							<div class="block3-txt p-t-14">
-								<h4 class="p-b-7">
-									<a class="m-text11">
-										Black Friday Guide: Best Sales & Discount Codes
-									</a>
-								</h4>
-
-								<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-								<span class="s-text6">on</span> <span class="s-text7">July 22, 2017</span>
-
-								<p class="s-text8 p-t-16">
-									Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-								</p>
-
-								<hr width="100%">
-
-								<span class="block3-price m-text6 p-r-5">
-									$75.00
-								</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
-						<!-- Block3 -->
-						<div class="block3">
-							<a class="block3-img dis-block hov-img-zoom">
-								<img src="/resources/vendor/template-customer/images/blog-01.jpg" alt="IMG-BLOG">
-							</a>
-
-							<div class="block3-txt p-t-14">
-								<h4 class="p-b-7">
-									<a class="m-text11">
-										Black Friday Guide: Best Sales & Discount Codes
-									</a>
-								</h4>
-
-								<span class="s-text6">By</span> <span class="s-text7">Nancy Ward</span>
-								<span class="s-text6">on</span> <span class="s-text7">July 22, 2017</span>
-
-								<p class="s-text8 p-t-16">
-									Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames
-								</p>
-
-								<hr width="100%">
-
-								<span class="block3-price m-text6 p-r-5">
-									$75.00
-								</span>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
