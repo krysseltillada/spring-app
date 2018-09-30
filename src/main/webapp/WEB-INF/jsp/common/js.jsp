@@ -14,3 +14,9 @@
 <script src="<c:url value="${template}/assets/js/lib/vector-map/jquery.vmap.min.js"/>"></script>
 <script src="<c:url value="${template}/assets/js/lib/vector-map/jquery.vmap.sampledata.js"/>"></script>
 <script src="<c:url value="${template}/assets/js/lib/vector-map/country/jquery.vmap.world.js"/>"></script>
+<script src="<c:url value="/resources/vendor/momentjs/moment.js" />"></script>
+<script src="<c:url value="/resources/vendor/momentjs/moment-with-locales.min.js" />"></script>
+<script src="<c:url value="/resources/vendor/timeago/timeago.min.js" />"></script>
+<script src="<c:url value="/resources/vendor/timeago/timeago.locales.min.js" />"></script>
+
+
