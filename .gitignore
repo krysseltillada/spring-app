@@ -28,3 +28,4 @@
 mvnw
 *.cmd
 *.trace.db
+/bin/
